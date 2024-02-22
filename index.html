@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RANA & SONS</title>
+		<link rel="icon" href="/favicon.ioc">
+		<style>
+			body {
+				background-image: linear-gradient(to right, #994f9f, #229ed5);
+			}
+			.web-page-wrapper {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+			.web-page-wrapper .page-header {
+				margin: 50px 0;
+			}
+			.web-page-wrapper .page-header img {
+				width: 161px;
+				height: auto;
+			}
+			.web-page-wrapper .page-body {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+			.web-page-wrapper .page-body .button img {
+				width: 30px;
+				height: 30px;
+				margin-right: 20px;
+			}
+			a {
+				text-decoration: none;
+				outline: none;
+				border: 0;
+			}
+			.button {
+				align-items: center;
+				border: 1px solid #ffffff;
+				border-radius: 8px;
+				box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+				color: #ffffff;
+				cursor: pointer;
+				display: flex;
+				justify-content: flex-start;
+				outline: none;
+				margin: 0;
+				min-height: 38px;
+				padding: 10px 20px;
+				text-decoration: none;
+				transition: all 250ms;
+				min-width: 240px;
+				margin: 10px 0;
+			}
+
+			.button:hover,
+			.button:focus {
+				border-color: rgba(0, 0, 0, 0.15);
+				box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+			}
+
+			.button:hover {
+				transform: translateY(-1px);
+			}
+
+			.button:active {
+				border-color: rgba(0, 0, 0, 0.15);
+				box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+				transform: translateY(0);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="web-page-wrapper">
+			<div class="page-header">
+				<img src="images/logo.png" alt="Maars Logo" />
+			</div>
+			<div class="page-body">
+				<a href="https://api.whatsapp.com/send?phone=%2B923422829726" target="_blank">
+					<div class="button">
+						<img
+							src="images/ic-whatsapp.png"
+							alt="Whatsapp Button"
+						/>
+						<p>Contact us on Whatsapp</p>
+					</div>
+				</a>
+				<a href="https://www.facebook.com/rsbbm" target="_blank">
+					<div class="button">
+						<img
+							src="images/ic-fb.png"
+							alt="Facebook Messenger Button"
+						/>
+						<p>Contact us on Facebook</p>
+					</div>
+				</a>
+				<!-- <a href="https://www.instagram.com/maarss.online/">
+					<div class="button">
+						<img src="images/ic-insta.png" alt="Instagram Button" />
+						<p>Contact us on Instagram</p>
+					</div>
+				</a>
+				<a href="https://maarss.com/">
+					<div class="button">
+						<img
+							src="images/ic-web.png"
+							alt="Visit Website Button"
+						/>
+						<p>Visit our Website</p>
+					</div>
+				</a> -->
+			</div>
+		</div>
+	</body>
+</html>
